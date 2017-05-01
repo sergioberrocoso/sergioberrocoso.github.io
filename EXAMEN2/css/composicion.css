@@ -1,0 +1,126 @@
+/*tuve que modificar el acceso a los links en los html, y al faltar las fotos
+a las que se hace ref en la pág de galerías(sólo está la foto1) rellené la etiqueta alt,para que mostrara la información alternativa,también modifiqué la posición del div cabecera2 para colocarlo dentro de cabecera. */
+
+
+
+
+/*uso la propiedad gradient para imitar el de la página del ejemplo, de gris a blanco */
+
+body
+{
+
+background:linear-gradient(grey ,white 40% );
+
+}
+
+/*centro la posición del div contenido,y el texto de dentro estará alineado
+por defecto a la izquierda, color de letra negro,el margen auto, y el ancho a 42.5%*/
+
+#contenido
+
+{
+
+color:black;
+
+width: 42.5%;
+margin: auto;
+position:relative;
+center;
+
+}
+
+/*para la cabecera le ponemos background color blanco,establecemos los margenes(más o menos) que aparecen en el ejemplo, establecemos altura y un margen top interno de 5px con el resto de divs que contiene.*/
+
+#cabecera
+ {
+
+padding-top:5px;
+background-color:white;
+margin-left:20px;
+margin-right:40px;
+height:210px;
+
+}
+
+/*alineamos la imagen a la derecha y dejamos los margenes que se aprecian en el ejemplo*/
+
+#Cabezera2
+{
+text-align:right;
+
+margin-left:30%;
+margin-top:20px;
+
+}
+
+/*establecemos background, anchura y altura del marco para el div nuevo2 y lo posicianamos dentro de su contenedor cabecera*/
+
+#cabecera #nuevo2 
+{
+background-color:red;
+position: relative;
+bottom: 10.5em;
+width :200px;
+height:50PX;
+margin-top:20px;
+margin-left:30px;
+
+}
+
+/*copiamos los mismos valores del div nuevo2 para el div nuevo4 que aparece sólo
+en la página interior de usuario*/
+
+#cabecera #nuevo4
+{
+
+background-color:red;
+position: relative;
+bottom: 10.5em;
+width :200px;
+height:50PX;
+margin-top:20px;
+margin-left:30px;
+
+}
+
+/*centramos el div titular y establecemos los valores de tipo de letra,tamaño
+y color*/
+
+#titular
+{
+text-align:center;
+font-style:italic;
+font-weight:bold;
+font-size:2em;
+font-color:blue;
+}
+
+/*centramos el div de pie y establecemos un margen top de 50px */
+#pie 
+
+{
+text-align:center;
+margin-top:50px;
+
+}
+
+/*establecemos el color de letra rojo, para la clase .amigo,*/
+
+.amigo
+{
+
+color:red;
+
+}
+
+/*para la clase .flo de la pág interior galerías establecemos color de letra y posición relativa.*/
+
+#contenido .flo{
+position:relative;
+bottom: 9.5em;
+left:  12.5em;
+color: black;
+}
+
+
+ 

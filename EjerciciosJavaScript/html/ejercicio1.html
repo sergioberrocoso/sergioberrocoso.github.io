@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+ 
+<html>
+    <head>
+       <title> Tablas de multiplicar </title>
+    </head>
+ 
+    <body>
+	<h1>EJERCICIO1 DE  EJERCICIOS JAVASCRIPT</h1>
+	<h2>TABLAS DE MULTIPLICAR</h2>
+	<form>
+	<h3>Ingresa el numero y pulsa enter o haz click</h3>
+	<input type="text" id="tabla">
+	
+	
+	
+	
+	</form>
+
+	<script type= "text/javascript">
+function tablasMultiplicar (){
+var tabla = document.getElementById('tabla').value;
+ 
+for (var x = 1; x <= 10; x++) {
+var	result=tabla*x;
+	document.write(tabla+"x"+x+"="+ result + "<br>");
+	
+}
+
+
+
+}
+var tabla= document.getElementById("tabla");
+tabla.addEventListener("change", tablasMultiplicar);
+
+                     </script>	
+    </body>
+</html> 

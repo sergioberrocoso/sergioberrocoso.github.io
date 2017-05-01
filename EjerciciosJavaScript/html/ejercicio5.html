@@ -1,0 +1,43 @@
+
+	<!DOCTYPE HTML>
+ <html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicio4</title>
+<style>
+div{
+width:90px;height:30px;padding:60px;
+display: inline-block;
+}
+#caja1{
+background-color:yellow;
+}
+#caja2{
+background-color:grey;
+}
+#caja3{
+background-color:red;
+}
+#caja4{
+background-color:blue;
+}
+</style>
+
+	<script type="text/javascript">
+		function soy(obj){
+obj.innerHTML ="Me has pulsado "+obj.id;
+
+	}
+	</script>
+
+</head>
+<body>
+<div id="caja1" onclick="soy(this)" ></div>
+<div id="caja2" onclick="soy(this)" ></div>
+<div id="caja3" onclick="soy(this)" ></div>
+<div id="caja4" onclick="soy(this)" ></div>
+
+	
+</body>
+</html>
+

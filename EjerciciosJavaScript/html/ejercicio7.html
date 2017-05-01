@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicio 7</title>
+	<script>
+		function crear_tabla(){
+			var filas = document.getElementById("filas").value;
+			var columnas = document.getElementById("columnas").value;
+			var html = "";
+			for (var i = 0 ; i < columnas ; i++){
+				html += "<tr>";
+				for (var j = 0 ; j < filas ; j++){
+					html +="<td>"+"("+i+","+j+")"+"</td>";
+				}
+				html += "</tr>";
+			}
+			document.getElementById("tabla").innerHTML = html;
+		}
+		
+	</script>
+	<style>
+	
+	
+	table {
+		font-family: arial, sans-serif;
+		border-collapse: collapse;
+		width: 50%;
+	}
+
+	td, th {
+		border: 4px solid black;
+		text-align: left;
+		padding: 2px;
+	}
+
+	tr:nth-child(even) {
+		background-color: red;
+	}
+	</style>
+</head>
+<body>
+	<h1>Mi tabla</h1>
+	
+	
+	<form>
+		Filas: <input id="filas" type="text" name="filas"><br>
+		Columnas: <input id="columnas" type="text" name="columnas"><br>
+	</form>
+	<button onclick="crear_tabla()">Crear Tabla</button>
+	<br/>
+	<table id="tabla"></table>
+	<br/>
+	
+	
+</body>
+</html>

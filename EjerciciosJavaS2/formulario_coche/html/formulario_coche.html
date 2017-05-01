@@ -1,0 +1,70 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario_coche</title>
+	<link rel="stylesheet" href="../css/estilos.css">
+	<script type="text/javascript" src="../js/formulario_coche.js"></script>
+
+
+
+
+
+
+
+   
+
+
+</head>
+<body>
+	<form autocomplete="on">
+	<h1>Formulario para compra de Auto</h1>
+	<h3>Elija las características de su Auto</h3>
+	<fieldset id="caracteristicas">
+		<label id="total"><output id="total" >12000</output></label>
+    
+			<legend>Motor</legend>
+            
+                <select id="tipomotor" onfocus="capturaMotor()" onchange="cambioDeMotor()">
+                    <option>Gasolina sin coste adicional</option>
+                    <option>Diésel +1500€ </option>
+                    <option>Híbrido +3000€</option>
+                </select>
+            
+	
+		<legend>Elija Modelo de Auto</legend>
+        
+            <label><input type="radio" id="tres" name="modelo" onMouseDown="modeloAnterior()" onclick=" cambiaModelo()" >Tres Puertas (-2000€)</label>
+            <label><input type="radio" id ="cinco" name="modelo" onMouseDown="modeloAnterior()" onclick=" cambiaModelo()" checked>Cinco puertas</label>
+            <label><input type="radio" id = "famil" name="modelo" onMouseDown="modeloAnterior()" onclick=" cambiaModelo()" >Familiar (+1500€)</label>
+        
+	
+		<legend>Elija el color de su Auto</legend>
+
+       
+            <select id="colores" onMouseDown="cambiaColor()" onchange="fotocoche()">
+                <option>Rojo</option>
+                <option>Verde</option>
+                <option>Naranja</option>
+                <option>Blanco (-500€)</option>
+                <option>Negro (-600€)</option>
+            </select>
+	</fieldset>
+<fieldset id="extras">
+	<legend>Extras</legend>
+	
+		<label>Pintura Metálizada +750€:<input type="checkbox"  id="metalizada"onclick="opciones()"></label>
+		<label>Llantas de aleación +2000€:<input type="checkbox" id="llanta"onclick="opciones()"></label>
+		<label>Climatizador +800€:<input type="checkbox" id="climatizador"onclick="opciones()" ></label>
+		<label>GPS (+340€):<input type="checkbox" id="gps" value="pintura"onclick="opciones()"></label>
+		<label>On-Connected +800€:<input type="checkbox" id="onconnected" disabled onclick="opciones()"></label>
+	
+</fieldset>
+	
+	<input type="button" value="mostrar auto" onclick="fotocoche()">
+	</form>
+	
+    <img src="" id="imagenes">
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Mi Alert</title>
+        <meta charset="UTF-8">
+        
+        <style>
+            body{
+                margin-top: 50px;
+                margin-left: 50px;
+                
+            }
+            .dmensaje{
+                width: 270px;
+                margin-top: 5px;
+                margin-left: 40px;
+            }
+            .estitulo {
+                margin-top: 25px;
+                margin-left: 20px;
+            }
+            .esboton{
+                margin-left: 280px;
+            }
+            .contenedor {
+                position: fixed; 
+                width: 350px; 
+                height: 200px; 
+                top: 0; 
+                left: 0; 
+                font-family:Arial; 
+                font-size: 18px; 
+                background-color: yellow; 
+                color: red; 
+                display:none;”
+            }
+            
+            
+        </style>
+        <script>
+            function mostrar() {
+                var ventana = document.getElementById('ventana');
+                var mensaje = document.getElementById('txt').value;
+                ventana.style.marginTop = "100 px";
+                ventana.style.left = ((document.body.clientWidth-350) / 2) +  "px";
+                ventana.style.display = 'block';
+                document.getElementById('mensaje').innerHTML = mensaje;
+            }
+            function cerrar() {
+                var ventana = document.getElementById('ventana');
+                ventana.style.display = 'none';
+            }
+            
+        </script>
+        
+    </head>
+    <body>
+        <div>
+            <div id="ventana" class="contenedor" title="Mi Alert">
+                <div class="estitulo"><label>Mi Alert</label></div>
+                <hr/>
+                <div id="divmensaje" class="dmensaje"><label id="mensaje"></label></div>
+                <br><br>
+                
+                <input type="button" id="bcerrar" class="esboton" name="cerrar" value="Aceptar" onclick="cerrar()">
+            </div>
+            <div>
+                <h3>Mi Alert</h3>
+                <label>Mensaje a mostrar: </label>
+                <input type="text" id="txt" name="texto" onblur="mostrar()">
+            </div>
+        </div>
+    </body>
+</html>

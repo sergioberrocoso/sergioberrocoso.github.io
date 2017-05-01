@@ -1,0 +1,53 @@
+
+
+body {
+        margin: 0 300px 0 300px;
+        color: #000000;
+    }
+form {
+margin-top:20px;
+background-color:tomato;
+padding: 50px 60px;
+border-radious: 20px;
+
+
+}
+input{
+margin-top:20px;
+margin-bottom:20px;
+ 
+}
+#total{
+ display: block;
+ float: right;
+
+}
+fieldset{
+margin-bottom:20px;
+margin-left:20px;
+margin-right:20px;
+}
+h1,h3{
+text-align: center;
+
+}
+
+legend{
+background-color:orange;
+
+}
+
+#modelo label,input{
+
+
+}
+
+#caracteristicas label{
+
+}
+
+#extras label{
+display:block;
+float:left;
+
+margin-left:30px;}

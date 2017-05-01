@@ -1,0 +1,58 @@
+
+<!DOCTYPE HTML>
+ 
+
+<html>
+    <head>
+       <title>Cambiar de Color</title>
+	   <style>
+	.clase_blur{
+	
+	}
+	.clase_focus{
+	background-color: blue;
+	
+	}
+	</style>
+	<script type="text/javascript">
+	
+	function focus (input){
+	input.className=".clase_focus";
+	
+	}
+	function focus (input){
+	input.className=".clase_blur";
+	}
+	
+	
+	
+	</script>
+	
+	
+	
+	
+	
+    </head>
+ 
+    <body>
+	<h1>EJERCICIO3 DE  EJERCICIOS JAVASCRIPT</h1>
+	<h2>Eventos onfocus y onblur </h2>
+	
+	<form id="formulario">
+	
+<form>
+		<h3>Nombre: <input type="text" onfocus="this.className='clase_focus'"  onblur="this.className='clase_blur'" id="nombre" name=""> </h3>
+		<h3>Direccion: <input type="text" onfocus="this.className='clase_focus'"  onblur="this.className='clase_blur'" id="dir" name=""> </h3>
+		<button type="send">Enviar</button>
+	
+	</form>
+
+	
+	
+	
+	
+	
+	
+	
+	</body>
+	</html>
