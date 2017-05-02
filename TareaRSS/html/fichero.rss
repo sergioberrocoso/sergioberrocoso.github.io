@@ -12,10 +12,10 @@
 		</item>
 		<item>
 			<title> Noticia Baloncesto</title>
-			<link>https://sergioberrocoso.github.io/mi%20primer%20sitio%20web/periodicos.html</link>
-			<guid>https://sergioberrocoso.github.io/mi%20primer%20sitio%20web/periodicos.html</guid>
+			<link>https://sergioberrocoso.github.io/TareaRSS/html/noticiaCanarias.html</link>
+			<guid>https://sergioberrocoso.github.io/TareaRSS/html/noticiaCanarias.html</guid>
 			<description>Noticia del Club Baloncesto Canarias</description>
 		</item>
-		
+		 
 	</channel> 
 </rss>
