@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<title> rss del sitio sergioberrocoso.github.io </title>
+		<link>https://sergioberrocoso.github.io</link>
+		<language>es</language>
+		<description>tarea para la lenguaje de marcas tema3, info del tiempo y una noticia</description>
+		<item>
+			<title>Ver el tiempo en Santa cruz de Tenerife</title>
+			<link>http://www.eltiempo24.es/Santa_Cruz_de_Tenerife-ES0ST0038.html</link>
+			<guid>http://www.eltiempo24.es/Santa_Cruz_de_Tenerife-ES0ST0038.html</guid>
+		</item>
+		<item>
+			<title> Noticia Baloncesto</title>
+			<link>https://sergioberrocoso.github.io/mi%20primer%20sitio%20web/periodicos.html</link>
+			<guid>https://sergioberrocoso.github.io/mi%20primer%20sitio%20web/periodicos.html</guid>
+			<description>Noticia del Club Baloncesto Canarias</description>
+		</item>
+		
+	</channel> 
+</rss>
