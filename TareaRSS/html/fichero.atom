@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns=" 	
+
+http://www.w3.org/2005/Atom">
+	<title>Atom del sitio  sergioberrocoso.github.io</title>
+	<link rel="self" type="application/atom+xml" href="https://sergioberrocoso.github.io/TareaRSS/html/fichero.atom"/>
+	<author><name>Sergio Berrocoso Gómez</name></author>
+	<entry>
+		<title>Ver el tiempo en Santa cruz de Tenerife</title>
+		<id>http://www.eltiempo24.es/Santa_Cruz_de_Tenerife-ES0ST0038.html</id>
+		<link rel="alternate" type"text/html" href="http://www.eltiempo24.es/Santa_Cruz_de_Tenerife-ES0ST0038.html"/>
+		<content type="xhtml" xml:lang="es">
+			<div xmlns="http://www.w3.org/1999/xhtml">
+			tarea para la lenguaje de marcas tema3, info del tiempo y una noticia</div>
+		</content>
+	</entry>
+	<entry>
+		<title>Noticia Baloncesto</title>
+		<id>https://sergioberrocoso.github.io/TareaRSS/html/noticiaCanarias.html</id>
+		<link rel="alternate" type"text/html" href="https://sergioberrocoso.github.io/TareaRSS/html/noticiaCanarias.html"/>
+		<content type="xhtml" xml:lang="es">
+			<div xmlns="http://www.w3.org/1999/xhtml">
+			 Noticia del Club Baloncesto Canarias</div>
+		</content>
+	</entry>
+</feed>
