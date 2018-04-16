@@ -1,0 +1,125 @@
+
+* {
+  margin:  0;
+  padding: 0;
+}
+
+body{
+
+background-image: url(../imagenes/bg_body.png);   
+background-repeat: repeat-x;
+font-family: verdana;
+}
+
+
+#Cabezera2{
+	
+	
+	float:right;
+	width: 60%;
+	margin-right: 15%;
+	
+	
+}
+
+.imagen{
+	width:100%;
+}
+
+
+#cabecera{
+
+padding-bottom: 2%;
+background-color: white;
+margin-bottom: 2%;
+margin-right: 15%;
+margin-left: 5%;
+}
+#titular{
+	
+	font-size: 2em;
+
+	margin-left: 10%;
+	text-align: center;
+}
+
+.amigo{
+
+	color:black; 
+	font-weight: bold;
+}
+
+
+.nuevo2{
+
+
+
+margin-left: 7%;
+
+width: 25%;
+
+
+
+}
+
+.nuevo{
+	
+	list-style: none;
+
+
+
+}
+
+.nuevo a{
+	background-color: yellow;
+
+}
+
+#contenido{ 
+ 
+	margin-left:auto;
+	margin-right: auto;
+	width:50%;
+	font-size: 0.9em;
+	line-height: 1.5em;
+
+
+}
+
+#contenido h1{
+	font-size: 24px;
+	margin-bottom:1%;
+}
+
+.lilyimagen{
+
+	margin: 2% 2%;
+
+}
+#contenido h2{
+	font-size: 18px;
+	margin-bottom:1%;
+
+}
+
+.navegador{
+	
+	margin-bottom: 2%;
+}
+
+#contenido ol{
+
+	margin-left: 6%;
+	text-indent: 2%;
+	padding-bottom: 2%;
+}
+
+#contenido h3{
+	font-weight: lighter;
+	margin-bottom: 2%;
+}
+#pie{
+width: 50%;
+margin-left:20%;
+margin-top: 8%;
+}
