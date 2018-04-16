@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	
+	<meta charset="UTF-8">
+	<meta name="description" content="Página de Resesrvas Mi hotel"/>
+	<meta name="keywords" content="Reservas,hoteles,Mi hotel"/>
+	<link rel="stylesheet" type="text/css" href="../css/estilos_formulario.css">
+	<title>Mi Hotel, Reservas</title>
+</head>
+<body>
+	<header>
+		<h1>Mi Hotel, Formulario de Reserva</h1>
+	</header>
+	<section>
+		<form action="mailto:reservas@mihotel.com" method="get">
+
+			<table>
+				<th>
+					<td id="titulo">Mi Hotel</td>
+				</th>
+				<tr>
+					<td>Nombre:</td>
+					<td>
+						<input type="text" name="nombre" placeholder="Nombre" title="nombre" autofocus>
+					</td>
+				</tr>
+				<tr>
+					<td>Apellidos:</td>
+					<td>
+						<input type="text" name="apellidos" placeholder="Apellidos" title="Apellidos">
+					</td>
+				</tr>
+				<tr>
+					<td>Teléfono:</td>
+					<td>
+						<input type="tel" name="telefono" placeholder="Teléfono" title="Teléfono">
+					</td>
+				</tr>
+				<tr>
+					<td>E-mail:</td>
+					<td>
+						<input type="email" name="email" placeholder="E-mail" title="email">
+					</td>
+				</tr>
+				<tr>
+					<td>Número de noches:</td>
+					<td>
+						<input type="text" name="noches" placeholder="Número de noches" title="Noches">
+					</td>
+				</tr>
+				<tr>
+					<td>Fecha de entrada:</td>
+					<td>Día:
+						<select name="dia" title="Día">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							<option value="7">7</option>
+							<option value="8">8</option>
+							<option value="9">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+							<option value="16">16</option>
+							<option value="17">17</option>
+							<option value="18">18</option>
+							<option value="19">19</option>
+							<option value="20">20</option>
+							<option value="21">21</option>
+							<option value="22">22</option>
+							<option value="23">23</option>
+							<option value="24">24</option>
+							<option value="25">25</option>
+							<option value="26">26</option>
+							<option value="27">27</option>
+							<option value="28">28</option>
+							<option value="29">29</option>
+							<option value="30">30</option>
+							<option value="31">31</option>
+						</select>Mes:
+
+						<select name="mes" title="mes">
+							<option value="enero">Enero</option>
+							<option value="febero">Febrero</option>
+							<option value="marzo">Marzo</option>
+							<option value="abril">Abril</option>
+							<option value="mayo">Mayo</option>
+							<option value="junio">Junio</option>
+							<option value="julio">Julio</option>
+							<option value="agosto">Agosto</option>
+							<option value="septiembre">Septiembre</option>
+							<option value="octubre">Octubre</option>
+							<option value="noviembre">Noviembre</option>
+							<option value="diciembre">Diciembre</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>Tipo de Habitación:</p>
+					</td>
+					<td>
+					<label for="habitacion">
+						<input type="radio" name="habitacion">Simple
+						<input type="radio" name="habitacion">Doble
+						<input type="radio" name="habitacion">Matrimonio
+					</label>
+					</td>
+				</tr>
+				<tr>
+					<td>Extras:</td>
+					<td>Desayuno<input type="checkbox" name="desayuno" title="desayuno">
+						Comida<input type="checkbox" name="comida" title="comida">
+						Cena<input type="checkbox" name="cena">
+						Cama Supletoria<input type="checkbox" name="cama_supletoria" title="Cama supletoria">
+					</td>
+				</tr>
+				<tr>
+					<td>Deje su comentario</td>
+					<td><textarea name="comentarios" rows="6" cols="30"></textarea> 
+					</td>
+				</tr>
+				<tr>
+					<td>Enviar/Borrar</td>
+					<td id="botones">
+						<input type="submit" name="enviar" id="enviar">
+						<input type="reset" name="borrar" value="Borrar" id="borrar">
+					</td>
+				
+
+				
+				</tr>
+
+
+
+
+			</table>
+
+
+		</form>
+
+	</section>
+	<footer><small>Formulario de reserva de MiHotel.com</small></footer>
+</body>
+</html>

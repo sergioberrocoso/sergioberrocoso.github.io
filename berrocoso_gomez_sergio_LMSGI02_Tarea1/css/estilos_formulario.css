@@ -1,0 +1,66 @@
+
+
+body{
+width: 50%;
+margin-left: auto;
+margin-right:auto;
+background-image: url(../img/palmeras.jpg);
+
+}
+
+header{
+	text-align: center;
+	color:white;
+}
+
+section{
+	background-color: blue;
+	border: solid 3px;
+	border-radius:10px;
+	border-color:yellow;
+	padding: 20px 10px 20px 10px;
+	
+}
+
+table{
+	
+	margin: auto;
+	border-color: yellow;
+	border-radius:10px;
+	color:white;
+	border-collapse: collapse;
+}
+
+textarea{
+	margin-left: 50px;
+	
+
+}
+
+td{
+	
+	border: 2px solid;
+	border-color:yellow;
+}
+
+#titulo{
+	font-size:1.5em;	
+	text-align: center;
+
+
+}
+
+#botones{
+	margin-left: 80px;
+	width: 20px;
+}
+
+#borrar{
+padding-left: 
+
+}
+
+footer{
+	margin-top:20px;
+	text-align: center;
+}
