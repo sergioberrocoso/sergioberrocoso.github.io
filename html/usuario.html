@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Formulario de inscripción de buscoViajes"/>
+	<meta name="keywords" content="Viajes,compartir casa,formulario"/>
+	<title>Formulario Usuario de buscoViajes</title>
+	<link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="../css/estilos_index.css" />
+	<link rel="stylesheet" type="text/css" href="../css/estilos_usuario.css" />
+</head>
+
+<!-- Dejé la misma estructura que en el index, para reutilizar el código ya que los otros dos html
+también tenían la misma apariencia, el header o cabecera y el footer o pie son iguales y cogen su apariencia del mismo css del 
+estilos_index.css; para las modificaciones necesarias del div contenedor o section tienen cada html su css correspondiente. -->
+<body>
+ <div id="contenedor">
+    
+    <div id="Cabezera2">
+      <img class="imagen" src="../imagenes/header.jpg" alt="Cabezera" />
+    </div><!-- Cabezera2 -->
+
+    <div id="cabecera" >
+
+      <div id="titular">
+        <p><a href="#">busco<span class="amigo">Viajes</span>, pasarlo bien.</a></p>
+      </div><!--titular-->
+      <div class="nuevo2">
+        <ul class="nuevo">
+         <li ><a href="index.html">Volver</a> <a href="galeria.html">Ver Galería</a></li>
+         
+        </ul>
+      </div>
+
+    </div><!--cabecera-->
+
+   <div id="contenido">
+     <h1>Nuevo Usuario</h1>
+      <p>Aún no eres usuario de busco<span class="amigo">Viajes</span>.Es fácil rellena el siguiente <strong>Formulario:</strong></p>
+  	 <form class="formulario_contacto" action="mailto:buscoViajes@gmail.com" method="get">
+  	 	<fieldset class="formulario_usuario">
+  	 		<legend>Información de Usuario</legend>
+  	 			<ul>
+  	 				<li>Nombre: <input type="text" name="nombre" placeholder="Nombre" autofocus="autofocus"></li>
+  	 				<li>Apellidos: <input type="text" name="apellidos" placeholder="Apellidos"></li>
+  	 				<li>Ciudad: <input type="text" name="ciudad" placeholder="Ciudad"></li>
+  	 				<li>Email: <input type="email" name="email" placeholder="Email"></li>
+  	 				<li>Comentario:<textarea placeholder="Comentario"></textarea> 
+				</ul>
+  	 		
+  	 	</fieldset>
+  	 	<fieldset class="formulario_acceso">
+  	 		<legend>Acceso</legend>
+  	 		<ul>
+  	 			<li>Usuario: <input type="text" name="usuario" placeholder="Usuario"></li>
+  	 			<li>Contraseña: <input type="password" name="contraseña"></li>		
+  	 		</ul>
+  	 	</fieldset>
+  	 	<button type="send">Crear Usuario</button>
+  	 	
+
+  	 </form>
+     <p><a href="">¿Has olvidado tu contraseña?</a>,sino puedes crear tu cuenta o tienes alguna duda ponte en
+     <a href="">contacto</a> con nosotros.
+     </p>
+     
+   </div><!--contenido-->
+   
+   <div id="pie">
+    <p><a href="#">Contactar</a> busco <span class="amigo">Amigos</span></p>
+   </div><!--pie-->
+</div><!--contenedor-->
+</body>
+</html>

@@ -1,0 +1,44 @@
+.texto{
+	width:50%;
+	float:right;
+	margin-right:20%;
+}
+
+
+.texto p{
+	text-indent: 15%;
+}
+
+
+.imagenes{
+	width:50%;
+}
+
+
+
+
+
+.foto{
+	width: 50%;
+	margin-left: 10%;
+	margin-bottom: 3%;
+}
+
+
+.foto img{
+	width:  100%; 
+}
+
+
+#contenido h1{
+	margin-left:5%; 
+	margin-bottom: 2%;
+}
+
+#contenido span{
+	font-weight: bold;
+}
+
+.texto div{
+margin-bottom: 3%;
+}
