@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100% !important;
+}
+
+
+header{
+width: 100%;
+background-color: rgba(219, 255, 51, 0.8);
+
+}
+
+header label{
+
+    display:none;
+    width:30px;
+    height: 30px;
+    padding: 10px;
+
+}
+
+#botonMenu {
+display:none;
+   
+}    
+
+header label:hover{
+    cursor:pointer;
+    background:rgba(0,0,0,0.3);
+}
+
+
+.menu{
+      border:1px solid;
+}
+
+.menu ul{
+
+    margin:0;
+    list-style: none;
+    padding-top: 0px;
+    display:flex;
+    flex-direction: row;
+
+}
+
+.menu li:hover{
+    background: rgba(0,0,0,0.3);
+}
+
+
+.menu li{
+
+    border-right: 1px solid #fff;
+}
+
+.menu li a{
+    display:block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-shadow: -1px 0 #090, 1px 0 #090, 0 1px #090, 0 -1px #090;
+    color: #fff;
+}
+
+.menu h3{
+    position:absolute;
+  
+    margin-left: 75%;
+    font-family: vladimir Script;
+    font-size: 2em;
+}
+
+span{ 
+    color:red;
+
+}
+
+
+
+
+section {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1200px;
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100% !important;
+}
+
+
+#cronologia {
+    background-image: url("../img/historia-grecia.jpg");
+}
+#historia {
+    background-image: url("../img/templo_nike.jpg");
+}
+#batallas {
+    background-image: url("../img/batalla_grecia.jpg");
+}
+#saberMas {
+    background-image: url("../img/casco-espartano.jpg");
+}
+h1 {
+    background-color: #02223a;
+    bottom: 0;
+    color: rgba(255, 255, 255, 0.9);
+    display: block;
+    font-size: 5em;
+    font-weight: bold;
+    margin-top: 5em;
+    opacity: 0.76;
+    text-align: center;
+    text-shadow: 1px 1px 1px #666;
+    text-transform: uppercase;
+    width: 100%;
+}
+h2 {
+    color: #fff;
+    font-size: 5em;
+    font-weight: normal;
+    margin-top: 5em;
+    opacity: 0.90;
+    text-align: center;
+    text-shadow: 2px 2px 2px #ccc;
+    text-transform: uppercase;
+
+}
+#logo {
+    display: block;
+    float:left;
+    width: 150px;
+}
+
+
+#historia p {
+    background-color: rgba(219, 255, 51, 0.8);
+    border:1px solid;
+    border-color: black;
+    border-radius: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 2em auto;
+    max-width: 800px;
+    padding: 1.5em;
+    display: none;
+    text-shadow: -1px 0 #090, 1px 0 #090, 0 1px #090, 0 -1px #090;
+    color: #fff;
+}
+
+
+#sello{
+display: inline-block;
+margin-top: 2em;
+margin-left:44%;
+width:100px;
+
+
+}
+
+
+
+.miBoton{
+    display: inline-block;
+    margin-top: 8%;
+    margin-left:44%;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    text-shadow: -1px 0 #090, 1px 0 #090, 0 1px #090, 0 -1px #090;
+    color: #fff;
+    background-color: rgba(219, 255, 51, 0.8);
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+
+ .miBoton:hover{
+    
+    color:rgba(219, 255, 51, 0.8);
+    background-color:  rgba(0,0,0,0.3);
+   
+  }
+
+
+  footer {
+    background-color: rgba(219, 255, 51, 0.8);
+    color:red;
+    font-style: italic;
+    padding: 10px;
+
+  }
+
+  @media screen and (max-width:768px) {
+
+
+header{
+    position: absolute;
+    z-index: 2;
+}
+
+    header label{
+        display:block;
+    }
+
+
+    .menu{
+    
+      width: 50%;
+      margin-left: -50%;
+    }
+
+
+    .menu ul{
+        flex-direction: column;
+        
+    }
+
+    .menu li{
+        border-top:1px solid #fff;
+    }
+
+
+
+    .menu li a{
+    display:inline-block;
+    padding: 2px;
+    text-decoration: none;
+    text-shadow: -1px 0 #090, 1px 0 #090, 0 1px #090, 0 -1px #090;
+    color: #fff;
+    }
+
+
+
+    .logoMenu{
+        width:30px;
+        height: 30px;
+
+    }
+
+    #botonMenu {
+    visibility: hidden;
+   
+    }    
+
+    #botonMenu:checked ~ .menu{
+        margin:0;
+    }
+
+    #logo {
+    
+    display: block;
+    width: 130px;
+    position: absolute; 
+    left:53%;
+    top: 2%; 
+    z-index: 3;
+    }
+
+
+    h1, h2{
+
+        font-size: 2.5em;
+    }
+
+    .miBoton{
+         margin-left:34%;
+    }
+
+    #sello{
+        margin-left:30%;
+    }
+
+   nav h3{
+        display:none;
+    }
+
+  }
+

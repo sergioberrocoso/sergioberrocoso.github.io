@@ -1,0 +1,115 @@
+
+
+#saberMas{
+	  height: 100% !important;
+}
+
+
+#saberMas h1{
+
+font-size:3em;
+}
+
+
+
+
+form{
+text-align: left;
+width:35%;
+margin:5% auto;
+border:2px solid;
+border-color:blue;
+padding:1%;
+border-radius:10px;
+background-color: #02223a;
+text-shadow: -1px 0 #090, 1px 0 #090, 0 1px #090, 0 -1px #090;
+ color: #fff;
+}
+
+form input{
+background-color: rgba(219, 255, 51, 0.8);
+margin-top: 2%;
+
+}
+
+form button{
+	margin-top: 5%;
+	width: 5em;
+	height: 2em;
+	text-shadow: -1px 0 #090, 1px 0 #090, 0 1px #090, 0 -1px #090;
+    color: #fff;
+    background-color: rgba(219, 255, 51, 0.8);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+select{
+	margin-top: 2%;
+	border: 1px solid;
+	border-color:black;
+	border-radius:5px;
+
+
+}
+
+span {
+
+color:white;
+font-size: 1.2em;
+
+
+}
+
+button{
+margin-top:2%;
+margin-left: 22%;
+
+}
+
+#comprobar{
+font-size: 0.9em;
+width:5em;
+height: 1em;
+margin-left: 10%;
+}
+
+article h2{
+
+	font-size: 2em;
+	margin-bottom: 1%;
+}
+
+iframe{
+	margin-left: 40%;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+
+
+
+form{
+
+width:50%;
+margin:5% auto;
+border:2px solid;
+border-color:blue;
+padding:1%;
+border-radius:10px;
+background-color: #02223a;
+text-shadow: -1px 0 #090, 1px 0 #090, 0 1px #090, 0 -1px #090;
+ color: #fff;
+}
+
+iframe{
+	margin-left: 8%;
+}
+
+}
