@@ -72,7 +72,7 @@ header label:hover{
 .menu h3{
     position:absolute;
   
-    margin-left: 75%;
+    margin-left: 70%;
     font-family: vladimir Script;
     font-size: 2em;
 }
@@ -139,7 +139,7 @@ h2 {
 #logo {
     display: block;
     float:left;
-    width: 150px;
+    width: 135px;
 }
 
 
